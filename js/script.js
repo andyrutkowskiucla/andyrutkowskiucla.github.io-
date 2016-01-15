@@ -32,12 +32,12 @@ function generatePopup(content){
 	
 	// Generate content
 	var popup_content = '<table class="popup_table table">';
-	popup_content += '<tr><td><strong>Address:</strong></td>';
-	popup_content += '<td>' + content['address'] + '</td>';
-	popup_content += '<tr><td><strong>City:</strong></td>';
-	popup_content += '<td>' + content['city'] + '</td>';
-	popup_content += '<tr><td><strong>Phone:</strong></td>';
-	popup_content += '<td>' + content['phone'] + '</td>';
+	popup_content += '<tr><td><strong>Name</strong></td>';
+	popup_content += '<td>' + content['Name'] + '</td>';
+	popup_content += '<tr><td><strong>About URL</strong></td>';
+	popup_content += '<td>' + content['About URL'] + '</td>';
+	popup_content += '<tr><td><strong>Address</strong></td>';
+	popup_content += '<td>' + content['Address'] + '</td>';
 		popup_content += '<tr><td colspan="2"><strong><a href="http://' + content['website'] + '" target="_blank">Learn more</a></strong></td>';
 	popup_content += '</tr></table>'
 
