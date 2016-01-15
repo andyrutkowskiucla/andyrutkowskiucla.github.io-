@@ -8,7 +8,7 @@ if (window.location.hash === "#cluster") {
 }
 
 // Google Docs spreadsheet key
-var spreadsheet_key = '0As3JvOeYDO50dF9NWWRiaTdqNmdKQ1lCY3dpdDhZU3c';
+var spreadsheet_key = '1tFT_XDk7D-voZwMaO8TG_Dm_FwumXgnWIxrQy0heiBQ';
 
 // Name of lat, long columns in Google spreadsheet
 var lat_column = 'latitude';
