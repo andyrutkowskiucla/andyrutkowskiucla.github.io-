@@ -60,7 +60,7 @@ function loadMarkersToMap(markers_data) {
 		current = markers_data[num];
 
 		// Add lat, long to marker
-		var marker_location = new L.LatLng(current[lat_column], current[long_column]);
+		var marker_location = new L.LatLng(current[latitude], current[longitude]);
 
 		// Determine radius of the circle by the value in total
 		// radius_actual = Math.sqrt(current['total'] / 3.14) * 2.8;
