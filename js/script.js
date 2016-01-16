@@ -11,8 +11,8 @@ if (window.location.hash === "#cluster") {
 var spreadsheet_key = 'https://docs.google.com/spreadsheets/d/1tFT_XDk7D-voZwMaO8TG_Dm_FwumXgnWIxrQy0heiBQ/pubhtml';
 
 // Name of lat, long columns in Google spreadsheet
-var lat_column = 'latitude';
-var long_column = 'longitude';
+var latitude = 'latitude';
+var longitude = 'longitude';
 
 // Marker options
 var radius = 8;
