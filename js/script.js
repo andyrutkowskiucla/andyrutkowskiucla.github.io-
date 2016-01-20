@@ -28,16 +28,16 @@ var global_markers_data;
 // Function that creates our popup
 function generatePopup(content){
     // Generate header
-	var popup_header = "<h4>" + toTitleCase(content['brewery']) + "</h4>"
+	var popup_header = "<h4>" + toTitleCase(content['museum']) + "</h4>"
 	
 	// Generate content
 	var popup_content = '<table class="popup_table table">';
-	popup_content += '<tr><td><strong>Name</strong></td>';
-	popup_content += '<td>' + content['Name'] + '</td>';
+	popup_content += '<tr><td><strong>Description</strong></td>';
+	popup_content += '<td>' + content['Description'] + '</td>';
+	popup_content += '<tr><td><strong>Date</strong></td>';
+	popup_content += '<td>' + content['Date'] + '</td>';
 	popup_content += '<tr><td><strong>About URL</strong></td>';
 	popup_content += '<td>' + content['About URL'] + '</td>';
-	popup_content += '<tr><td><strong>Address</strong></td>';
-	popup_content += '<td>' + content['Address'] + '</td>';
 		popup_content += '<tr><td colspan="2"><strong><a href="http://' + content['website'] + '" target="_blank">Learn more</a></strong></td>';
 	popup_content += '</tr></table>'
 
