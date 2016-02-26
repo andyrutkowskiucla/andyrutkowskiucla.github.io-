@@ -38,8 +38,8 @@ function generatePopup(content){
 	popup_content += '<td>' + content['Date'] + '</td>';
 	popup_content += '<tr><td><strong>About URL</strong></td>';
 	popup_content += '<td>' + content['About URL'] + '</td>';
-	popup_content += '<tr><td><strong>Address</strong></td>';
-	popup_content += '<td>' + content['Address'] + '</td>';
+	popup_content += '<tr><td><strong>Caption</strong></td>';
+	popup_content += '<td>' + content['Caption'] + '</td>';
 		popup_content += '<tr><td colspan="2"><strong><a href="http://' + content['website'] + '" target="_blank">Learn more</a></strong></td>';
 	popup_content += '</tr></table>'
 
