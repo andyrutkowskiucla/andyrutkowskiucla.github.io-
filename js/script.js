@@ -40,8 +40,7 @@ function generatePopup(content){
 	popup_content += '<td>' + content['About URL'] + '</td>';
 	popup_content += '<tr><td><strong>Caption</strong></td>';
 	popup_content += '<td>' + content['Caption'] + '</td>';
-		popup_content += '<tr><td colspan="2"><strong><a href="http://' + content['website'] + '" target="_blank">Learn more</a></strong></td>';
-	popup_content += '</tr></table>'
+
 
 	return popup_header + popup_content;
 }
@@ -130,7 +129,7 @@ function loadMarkersToMap(markers_data) {
 };
 
 // Pull data from Google spreadsheet via Tabletop
-function initializeTabletopObjectMarkers(1wUAXOCACLSp04aRC9cy04FmqCUH9J_uTv1AZa2z-EgI){
+function initializeTabletopObjectMarkers(){
 	Tabletop.init({
     	key: spreadsheet_key,
     	callback: loadMarkersToMap,
