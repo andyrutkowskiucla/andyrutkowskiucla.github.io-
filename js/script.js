@@ -130,7 +130,7 @@ function loadMarkersToMap(markers_data) {
 };
 
 // Pull data from Google spreadsheet via Tabletop
-function initializeTabletopObjectMarkers(){
+function initializeTabletopObjectMarkers(1wUAXOCACLSp04aRC9cy04FmqCUH9J_uTv1AZa2z-EgI){
 	Tabletop.init({
     	key: spreadsheet_key,
     	callback: loadMarkersToMap,
